@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #242121;
+}
+
+.navbar {
+  padding-block: 25px;
+  padding-inline: 50px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  background-color: #242121;
+}
+
+.book-grid {
+  padding: 50px 50px;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: center;
+  background-color: #242121;
+}
+
+.book-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 200px;
+}
+
+.book-item img {
+  aspect-ratio: 2/3;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
